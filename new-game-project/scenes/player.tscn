@@ -3,21 +3,25 @@
 [ext_resource type="Texture2D" uid="uid://djg4wyhs40i8n" path="res://asseets/player.png" id="1_3vyb7"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_3vyb7"]
-radius = 148.0
-height = 402.0
+radius = 104.0
+height = 288.0
 
 [node name="CharacterBody2D" type="CharacterBody2D"]
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
-position = Vector2(9, -159)
-scale = Vector2(0.15704547, 0.14545451)
+position = Vector2(-7.499996, -128.50002)
+scale = Vector2(0.10863637, 0.11772726)
 texture = ExtResource("1_3vyb7")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(10, -176)
+position = Vector2(-3, -130)
 shape = SubResource("CapsuleShape2D_3vyb7")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(4, -164)
+limit_left = 150
+limit_top = -360
+limit_right = 17195
+limit_bottom = 1177
 position_smoothing_enabled = true
 rotation_smoothing_enabled = true

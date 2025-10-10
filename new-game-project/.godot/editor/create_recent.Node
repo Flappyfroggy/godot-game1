@@ -1,6 +1,6 @@
+Sprite2D
 TileMap
 TileMapLayer
 Camera2D
 CollisionShape2D
-Sprite2D
 CharacterBody2D
