@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://b5lhsfmlmlple"]
+
+[ext_resource type="Script" uid="uid://b3u2i1hposbbg" path="res://scenes/context.gd" id="1_l8qqo"]
+[ext_resource type="Texture2D" uid="uid://ckooebfvpqpcm" path="res://asseets/Black_colour.jpg" id="1_syc5u"]
+[ext_resource type="Texture2D" uid="uid://dw1uu82hi3p0l" path="res://asseets/erty.png" id="2_l8qqo"]
+[ext_resource type="Texture2D" uid="uid://bgwv4pwh8f3hx" path="res://asseets/e.png" id="4_sj0tb"]
+
+[node name="context" type="Node2D"]
+script = ExtResource("1_l8qqo")
+
+[node name="bg" type="Sprite2D" parent="."]
+position = Vector2(950.00006, 555)
+scale = Vector2(7.6999993, 3.2612612)
+texture = ExtResource("1_syc5u")
+
+[node name="OnceUponATime,YouLivedHappilyInAVillage_UntilTheVolcanoErupted,SplatteringRockyDebrisEverywhere_Run_" type="Sprite2D" parent="."]
+position = Vector2(980.9999, 370.25012)
+scale = Vector2(1.8593748, 2.348611)
+texture = ExtResource("2_l8qqo")
+
+[node name="E" type="Sprite2D" parent="."]
+position = Vector2(955, 884)
+scale = Vector2(1.1677083, 0.9962963)
+texture = ExtResource("4_sj0tb")
